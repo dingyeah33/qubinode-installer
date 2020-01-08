@@ -9,9 +9,8 @@
     become: yes
     vars:
       vm_type: master
-      coreos_vm_hd_size: 240G
-      coreos_vm_memory_size: 32768
-      coreos_cpu_size: 6
+      coreos_vm_hd_size: 120G
+      coreos_vm_memory_size: 16384
 
     tasks:
     - name: Deploy Master node
